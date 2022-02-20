@@ -1,0 +1,318 @@
+
+.order_auto_bal{
+    background-image: url("../images/order_form_img.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+    min-height: 662px;
+}
+.order_spare_parts {
+    width: 100%;
+    margin-bottom: 97px;
+ 
+}
+.order_spare_parts_wrapper {
+    max-width: 579px;
+    width: 100%;
+    margin: 0 auto;
+}
+.order_spare_parts_title {
+    font-family: "Manrope", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    color: #000000;
+    margin-bottom: 13px;
+}
+
+.order_spare_parts_info{
+    font-family: "Manrope", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 23px;
+    color: #595959;
+    margin-bottom: 20px;
+}
+
+.order_spare_parts_form_step_select_title_svg_wrapper {
+    max-width: 577px;
+    width: 100%;
+    height: 58px;
+    cursor: pointer;
+    background: #EFEFEF;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 19px 21px;
+
+}
+
+.order_step_svg{
+    opacity: 0.5;
+}
+.order_step_form_select_title {
+    font-family: "Manrope", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.order_step_form_select_menu_main_wrapper {
+    padding: 19px 34px;
+    background: #f0f0f0;
+    position: absolute;
+    z-index: 1;
+    top: 56px;
+    width: 100%;
+    max-width: 577px;
+     display: none;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+
+.order_spare_parts_form_step_select_wrapper {
+    box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.04);
+    position: relative;
+    width: 100%;
+    position: relative;
+    margin-bottom: 15px;
+    transition: all 5s;
+}
+
+.order_step_form_select_menu_li {
+    font-family: "Manrope", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    list-style: none;
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+
+.order_spare_parts_form_step_select_wrapper.open .order_step_form_select_menu_main_wrapper {
+    display: block;
+}
+
+.order_spare_parts_form_step_select_wrapper.open .order_step_svg {
+    transform: rotate(180deg);
+    
+}
+
+.order_spare_parts_form_step_select_wrapper.active .order_step_svg {
+    opacity: 1;
+}
+
+.order_spare_parts_form_step_select_wrapper.active .order_spare_parts_form_step_select_title_svg_wrapper {
+    background: #FFFFFF;
+    border: 1px solid #4FC53D;
+    border-radius: 8px;
+
+}
+
+.order_spare_parts_form_step_select_wrapper.active .order_step_form_select_hidden_title {   
+   display: block;
+}
+
+.order_spare_parts_form_step_select_wrapper.active .order_step_form_select_title {   
+   opacity: 1;
+ }
+ 
+
+.order_step_form_select_hidden_title{
+    font-family: "Manrope", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #4FC53D;
+    padding: 2px 8px;
+    background: #FFFFFF;
+    display: none;
+    position: absolute;
+    top: -10px;
+    left: 14px;
+}
+
+.order_spare_parts_form_steps_title {
+    font-family: "Manrope", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 13px;
+}
+
+
+.see_selected_auto_parts {
+    font-family: "Manrope", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #595959;
+    margin-bottom: 42px;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.order_auto_line {
+    border: 1px solid #EBEDF3;
+    margin-bottom: 37px;
+}
+
+.order_spare_parts_form_select_textarea_wrapper textarea {
+    max-width: 577px;
+    width: 100%;
+    height: 119px;
+    background: #EFEFEF;
+    border-radius: 8px;
+    border: none;
+    resize: none;
+    padding: 17px 23px;
+    cursor: pointer;
+    font-family: "Manrope", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+    margin-bottom: 48px;
+    outline: none;
+}
+
+
+.second_sign_main-label {
+    max-width: 577px;
+    width: 100%;
+    background: #EFEFEF;
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 17px 23px;
+    margin-bottom: 12px;
+}
+
+.personal_data_input_field {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    color: #000;
+    cursor: pointer;
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+}
+.personal_data_input_field:active,
+.personal_data_input_field:focus {
+    outline: 0;
+}
+.label-text-step {
+    font-family: "Manrope", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    opacity: 0.5;
+}
+
+
+.second_sign_main-label:hover {
+    background: #f7f7f7;
+}
+.second_sign_main-label.active .label-text-step {
+    font-style: normal;
+    font-weight: 700;
+    position: absolute;
+    top: -12px;
+    background: #fff;
+    padding: 2px 10px;
+    font-family: Manrope, sans-serif;
+    font-size: 14px;
+    opacity: 1;
+}
+.second_sign_main-label.active_color .label-text-step {
+    color: #4fc53d;
+}
+.second_sign_main-label.active_color_grey .label-text-step {
+    color: #8a8a8a;
+}
+.second_sign_main-label.active_permanent {
+    background: #fff;
+    border: 1px solid #4fc53d;
+}
+.second_sign_main-label.done {
+    background: #fff;
+    border: 1px solid #d6d6d6;
+}
+.already_have_account {
+    font-family: "Manrope", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    color: #595959;
+    display: block;
+    margin-bottom: 37px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.submit_application{
+    background: #FFDD00;
+    box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    max-width: 577px;
+    width: 100%;
+    height: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Manrope", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+
+    & svg{
+        margin-right: 7px;
+    }
+}
+
+
+@media(max-width:630px){
+    .order_spare_parts_wrapper {
+        width: 93%!important;
+    }
+}
+
+@media(max-width:425px){
+    .order_spare_parts_title {
+        font-size: 26px!important;
+    }
+    .order_spare_parts_info {
+        font-size: 15px!important;
+    }
+}
